@@ -1,4 +1,5 @@
-his repository contains two distinct applications:
+# Docker and MySql database
+This repository contains two distinct applications:
 
 - **Grade Submission Spring Boot Application:** A Spring Boot application for grade submission functionality.
 - **Docker Compose Configuration:** A configuration for running the application in Docker containers.
@@ -63,6 +64,11 @@ Docker Compose
     ```bash
      docker-compose up -d
 3. Access the application (typically at http://localhost:8080 or the port specified in docker-compose.yml).
+
+# Additional Notes
+If you make changes to the Spring Boot application code, rebuild and restart it accordingly.
+For managing containers, use docker-compose commands (e.g., docker-compose down to stop and remove containers).
+Refer to the official Docker Compose documentation for more advanced usage: https://docs.docker.com/compose/
 
 
 
